@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" 
+  href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" 
+  integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="container">
+  <h1 style="color: royalblue;">Rock Paper Scissors !</h1>
+  <h2 style="color: slateblue;">Let's Play!</h2>
+  <h3>Rules:<br> 
+  You chose rock, paper or scissors. Simple ! First to 5 wins! But remember:<br>
+  Rock beats scissors but loses to paper.<br>
+  Paper beats paper but loses to scissors.<br>
+  Scissors beats paper but loses to rock.</h3>
+
+  <div class="icons">
+  <i class="far fa-hand-rock fa-3x" id="playRock"></i>&nbsp;
+  <i class="far fa-paper-plane fa-3x" id="playPaper"></i>&nbsp;
+  <i class="fas fa-cut fa-3x" id="playScissors"></i>&nbsp;
+  </div>
+  <button id="resetScore" class="btnReset">Reset Scores</button>
+  <h4 id="displayUserChoice"></h4>
+  <h4 id="displayCpuChoice"></h4>
+
+  <h3 id="displayPlayerScore" style="color: green;" >Your Score: </h3>
+  <h3 id="displayCpuScore" style="color: red;" >Computer Score:</h3>
+
+  <h2 id="cpuWins"></h2>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

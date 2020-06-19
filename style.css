@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(26, 32, 36);
+  background-color: rgb(182, 75, 75);
+}
+
+.container {
+  width: 700px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(204, 197, 192);
+  line-height:40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 28px 0 rgba(0, 0, 0, 0.5);
+}
+
+.btnReset {
+  width: 70%;
+  background-color: rgb(22, 51, 71);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btnReset:hover {
+  background-color: rgb(8, 20, 27) ;
+}
+
+.icons {
+  color: rgb(45, 39, 129);
+  margin: 10px 10px;
+}
+
+#playRock {
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+#playPaper {
+  margin-right: 100px;
+  cursor: pointer;
+}
+#playScissors {
+  cursor: pointer;
+}
+
+
+
+#playRock:hover {
+  transform: scale(1.1);
+  transition: all ease 500ms; 
+}
+#playPaper:hover {
+  transform: scale(1.1);
+  transition: all ease 500ms; 
+}
+#playScissors:hover {
+  transform: scale(1.1);
+  transition: all ease 500ms; 
+}
