@@ -2,8 +2,6 @@ var score = 0;
 var computerScore = 0;
 var finalScore = 5;
 
-
-
 function playerPlaysRock(){
 var playRock = document.getElementById("playRock").addEventListener("click", function() {
   var random = Math.floor(Math.random() * 3) + 1;
@@ -105,15 +103,6 @@ function resetScore() {
   })
 };
 resetScore();
-
-// function displayWinner() {
-//   finalScore = 5;
-//   computerScore = 0;
-//   if (score === finalScore) {
-//     document.getElementById("cpuWins").innerHTML = "Computer wins";
-//   }
-// };
-// displayWinner();
 
 if (score === 5) {
   document.getElementById("cpuWins").innerHTML = "computer wins"
